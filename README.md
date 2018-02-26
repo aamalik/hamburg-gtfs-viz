@@ -4,7 +4,7 @@ Visualizing the trace of a user who travels from different stations in Hamburg C
 
 ### Trace Sample Output
 
-![Neo4j Database Schema](https://raw.githubusercontent.com/aamalik/hamburg-gtfs-neo4j/master/graph.png)
+[Trace](routeTrace/images/schlump-christuskirche.png?raw=true "Title")
 
 ### Queries
 
