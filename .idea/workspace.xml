@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceed3eed-8296-444a-ac3a-9421fbafafea" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/routeTrace/geoJsonLine.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/routeTrace/index.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/heatmap/index2.html" afterPath="$PROJECT_DIR$/routeTrace/index2.html" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/heatcanvas-leaflet.js" afterPath="$PROJECT_DIR$/routeTrace/js/heatcanvas-leaflet.js" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/heatcanvas-worker.js" afterPath="$PROJECT_DIR$/routeTrace/js/heatcanvas-worker.js" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/heatcanvas.js" afterPath="$PROJECT_DIR$/routeTrace/js/heatcanvas.js" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/images/marker-icon-2x.png" afterPath="$PROJECT_DIR$/routeTrace/js/images/marker-icon-2x.png" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/images/marker-icon.png" afterPath="$PROJECT_DIR$/routeTrace/js/images/marker-icon.png" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/images/marker-shadow.png" afterPath="$PROJECT_DIR$/routeTrace/js/images/marker-shadow.png" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/leaflet.css" afterPath="$PROJECT_DIR$/routeTrace/js/leaflet.css" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/leaflet.js" afterPath="$PROJECT_DIR$/routeTrace/js/leaflet.js" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/markercluster/MarkerCluster.Default.css" afterPath="$PROJECT_DIR$/routeTrace/js/markercluster/MarkerCluster.Default.css" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/markercluster/MarkerCluster.Default.ie.css" afterPath="$PROJECT_DIR$/routeTrace/js/markercluster/MarkerCluster.Default.ie.css" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/markercluster/MarkerCluster.css" afterPath="$PROJECT_DIR$/routeTrace/js/markercluster/MarkerCluster.css" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster-src.js" afterPath="$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster-src.js" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster.js" afterPath="$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster.js" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/neo4j-web.js" afterPath="$PROJECT_DIR$/routeTrace/js/neo4j-web.js" />
-      <change beforePath="$PROJECT_DIR$/heatmap/js/neo4j-web.min.js" afterPath="$PROJECT_DIR$/routeTrace/js/neo4j-web.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +19,8 @@
       <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routeTrace/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="62" column="6" lean-forward="true" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+            <state relative-caret-position="660">
+              <caret line="93" column="42" lean-forward="false" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -44,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="484">
-                <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <first_editor relative-caret-position="132">
+                <caret line="6" column="103" lean-forward="false" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -53,21 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leaflet.markercluster-src.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster-src.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routeTrace/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leaflet.markercluster.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster.js">
+      <file leaf-file-name="geoJsonLine.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routeTrace/geoJsonLine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="80" column="28" lean-forward="false" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -75,11 +61,25 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>http://cdn.leafletjs.com/leaflet-0.</find>
       <find>minZoom: 2</find>
       <find>sp</find>
+      <find>longitude</find>
+      <find>windo</find>
+      <find>addLa</find>
+      <find>console</find>
+      <find>load</find>
+      <find>geometry</find>
+      <find>markerLayers</find>
       <find>neo4j</find>
     </findStrings>
   </component>
@@ -96,6 +96,9 @@
       <list>
         <option value="$PROJECT_DIR$/heatmap/index.html" />
         <option value="$PROJECT_DIR$/heatmap/index2.html" />
+        <option value="$PROJECT_DIR$/routeTrace/index.html" />
+        <option value="$PROJECT_DIR$/routeTrace/geoJsonLine2.html" />
+        <option value="$PROJECT_DIR$/routeTrace/geoJsonLine.html" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -146,9 +149,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routeTrace" />
       <recent name="$PROJECT_DIR$/heatmap" />
     </key>
   </component>
@@ -293,7 +298,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Graph Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Graph Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976928" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -504,10 +509,34 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routeTrace/geoJsonLine2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="40" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routeTrace/geoJsonLine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="80" column="28" lean-forward="false" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routeTrace/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="62" column="6" lean-forward="true" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+        <state relative-caret-position="660">
+          <caret line="93" column="42" lean-forward="false" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routeTrace/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -515,8 +544,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="484">
-            <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <first_editor relative-caret-position="132">
+            <caret line="6" column="103" lean-forward="false" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
             <folding />
           </first_editor>
           <second_editor />
