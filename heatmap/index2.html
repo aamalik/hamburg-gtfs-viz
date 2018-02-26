@@ -1,0 +1,117 @@
+<html>
+<head>
+    <link rel="stylesheet" href="js/leaflet.css" />
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+
+    <script src="js/leaflet.js"></script>
+
+    <script src="js/neo4j-web.min.js"></script>
+
+    <script src="js/heatcanvas.js"></script>
+    <script src="js/heatcanvas-leaflet.js"></script>
+    <script src="js/markercluster/leaflet.markercluster-src.js"></script>
+    <link rel="stylesheet" href="js/markercluster/MarkerCluster.css" />
+    <link rel="stylesheet" href="js/markercluster/MarkerCluster.Default.css" />
+
+    <style>
+    #map {height: 100%;}
+    .spinner {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+</head>
+
+<body>
+<div class="spinner" id="sp"></div>
+<div id="map"></div>
+
+
+<script>
+    var map;
+    function onLocationFound(e) {
+      //map.zoomTo(e.latlng);
+    }
+
+    function onLocationError(e) {
+      alert(e.message);
+    }
+    
+    window.onload = function() {
+      init();
+      console.log("window has loaded");
+    }   
+    
+    function init() {
+      console.log("init");
+      
+      var driver = neo4j.v1.driver("bolt://localhost:7687", neo4j.v1.auth.basic("neo4j", "neo4j"));
+
+      var baseLayer = L.tileLayer('//{s}.tile.osm.org/{z}/{x}/{y}.png', { attribution: '<a target=_blank href="http://osm.org/copyright">OpenStreetMap</a> | Data From <a target=_blank href="https://offshoreleaks.icij.org/pages/database">ICIJ Offshore Leaks</a>', minZoom: 2, maxZoom: 18});
+
+      var markerLayers = new L.MarkerClusterGroup();
+
+      var session = driver.session();
+      session
+         .run(`CALL spatial.closest('spatialGeometry',{lon:9.946658,lat:53.561669}, 0.001)
+              Yield node
+              return node.longitude as longitude, node.latitude as latitude`)
+        .subscribe({
+          onNext: function (record) {
+            console.log(record);
+            var marker = new L.Marker(new L.LatLng(record.get('latitude'), record.get('longitude')));
+            markerLayers.addLayer(marker);
+          },
+          onCompleted: function () {
+
+            var spinner = document.getElementById("sp");
+
+            spinner.setAttribute("style", "display: none;");
+
+            var overlayMaps = {'Markers': markerLayers};
+
+            var controls = L.control.layers(null, overlayMaps, {collapsed: false, autoZIndex: true});
+
+            map = new L.Map('map', {center: new L.LatLng(53.561669, 9.946658), zoom: 3, layers: [baseLayer]});
+            map.on('locationfound', onLocationFound);
+            map.on('locationerror', onLocationError);
+            map.locate({setView: true, maxZoom: 7});
+
+            map.addLayer(markerLayers);
+
+            controls.addTo(map);
+            session.close();
+          },
+          onError: function (error) {
+            console.log(error);
+          }
+        });
+      }
+    </script>
+</body>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-43032717-5"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-43032717-5');
+</script>
+</html>
