@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceed3eed-8296-444a-ac3a-9421fbafafea" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/heatmap/img/heatmap.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/heatmap/img/map_marker.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/heatmap/index.html" afterPath="$PROJECT_DIR$/heatmap/index2.html" />
-      <change beforePath="$PROJECT_DIR$/img/datamodel.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/jupyter/PP_Viz.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/jupyter/img/chord.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/jupyter/img/entity_count.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/heatmap/index2.html" afterPath="$PROJECT_DIR$/routeTrace/index2.html" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/heatcanvas-leaflet.js" afterPath="$PROJECT_DIR$/routeTrace/js/heatcanvas-leaflet.js" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/heatcanvas-worker.js" afterPath="$PROJECT_DIR$/routeTrace/js/heatcanvas-worker.js" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/heatcanvas.js" afterPath="$PROJECT_DIR$/routeTrace/js/heatcanvas.js" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/images/marker-icon-2x.png" afterPath="$PROJECT_DIR$/routeTrace/js/images/marker-icon-2x.png" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/images/marker-icon.png" afterPath="$PROJECT_DIR$/routeTrace/js/images/marker-icon.png" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/images/marker-shadow.png" afterPath="$PROJECT_DIR$/routeTrace/js/images/marker-shadow.png" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/leaflet.css" afterPath="$PROJECT_DIR$/routeTrace/js/leaflet.css" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/leaflet.js" afterPath="$PROJECT_DIR$/routeTrace/js/leaflet.js" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/markercluster/MarkerCluster.Default.css" afterPath="$PROJECT_DIR$/routeTrace/js/markercluster/MarkerCluster.Default.css" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/markercluster/MarkerCluster.Default.ie.css" afterPath="$PROJECT_DIR$/routeTrace/js/markercluster/MarkerCluster.Default.ie.css" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/markercluster/MarkerCluster.css" afterPath="$PROJECT_DIR$/routeTrace/js/markercluster/MarkerCluster.css" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster-src.js" afterPath="$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster-src.js" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster.js" afterPath="$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster.js" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/neo4j-web.js" afterPath="$PROJECT_DIR$/routeTrace/js/neo4j-web.js" />
+      <change beforePath="$PROJECT_DIR$/heatmap/js/neo4j-web.min.js" afterPath="$PROJECT_DIR$/routeTrace/js/neo4j-web.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,10 +31,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heatmap/index2.html">
+        <entry file="file://$PROJECT_DIR$/routeTrace/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+            <state relative-caret-position="208">
+              <caret line="62" column="6" lean-forward="true" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -34,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="396">
-                <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <first_editor relative-caret-position="484">
+                <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -44,7 +54,7 @@
         </entry>
       </file>
       <file leaf-file-name="leaflet.markercluster-src.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster-src.js">
+        <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster-src.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -54,7 +64,7 @@
         </entry>
       </file>
       <file leaf-file-name="leaflet.markercluster.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster.js">
+        <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -118,6 +128,11 @@
             <path>
               <item name="hamburg-gtfs-viz" type="b2602c69:ProjectViewProjectNode" />
               <item name="hamburg-gtfs-viz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hamburg-gtfs-viz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hamburg-gtfs-viz" type="462c0819:PsiDirectoryNode" />
+              <item name="routeTrace" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,7 +324,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/heatmap/index2.html">
+    <entry file="file://$PROJECT_DIR$/routeTrace/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1518">
           <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
@@ -317,7 +332,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster-src.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster-src.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -325,7 +340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -344,7 +359,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/index2.html">
+    <entry file="file://$PROJECT_DIR$/routeTrace/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -363,7 +378,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster-src.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster-src.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -371,7 +386,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -380,35 +395,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/heatmap/index.html" />
-    <entry file="file://$PROJECT_DIR$/heatmap/js/heatcanvas-worker.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/heatcanvas-worker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/heatcanvas-leaflet.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/heatcanvas-leaflet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/heatcanvas.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/heatcanvas.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3690">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/leaflet.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/leaflet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2068">
           <caret line="5" column="716" lean-forward="false" selection-start-line="5" selection-start-column="716" selection-end-line="5" selection-end-column="716" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -416,14 +431,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/neo4j-web.min.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/neo4j-web.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/markercluster/leaflet.markercluster-src.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/leaflet.markercluster-src.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -431,35 +446,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/markercluster/MarkerCluster.Default.ie.css">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/MarkerCluster.Default.ie.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/markercluster/MarkerCluster.Default.css">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/MarkerCluster.Default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/markercluster/MarkerCluster.css">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/markercluster/MarkerCluster.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/leaflet.css">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/leaflet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/neo4j-web.js">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/neo4j-web.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -474,25 +489,25 @@
     <entry file="file://$PROJECT_DIR$/jupyter/PP_Viz.ipynb" />
     <entry file="file://$PROJECT_DIR$/heatmap/img/map_marker.png" />
     <entry file="file://$PROJECT_DIR$/heatmap/img/heatmap.png" />
-    <entry file="file://$PROJECT_DIR$/heatmap/js/images/marker-shadow.png">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/images/marker-shadow.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/images/marker-icon-2x.png">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/images/marker-icon-2x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/js/images/marker-icon.png">
+    <entry file="file://$PROJECT_DIR$/routeTrace/js/images/marker-icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap/index2.html">
+    <entry file="file://$PROJECT_DIR$/routeTrace/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+        <state relative-caret-position="208">
+          <caret line="62" column="6" lean-forward="true" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -500,8 +515,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="396">
-            <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <first_editor relative-caret-position="484">
+            <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />

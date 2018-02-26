@@ -20,3 +20,6 @@ CALL spatial.intersects('spatialGeometry',polygon) YIELD node RETURN node.name a
 ``
 
 
+# Javascript
+
+Used Mapbox and leaflet js for visualization purposes
